@@ -31,7 +31,6 @@ public static class PartTwo
       {
         var index = value.IndexOf(key);
         var lastIndex = value.LastIndexOf(key);
-        //newStrReplace = newStrReplace.Insert(index, val.ToString());
         numbersIndex.Add(index, val);
         if (lastIndex != index)
           numbersIndex.Add(lastIndex, val);
